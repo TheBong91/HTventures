@@ -14,7 +14,7 @@
 *
 * ======================================================= */
 body {
-  font-family: sansationregular, Arial, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -26,13 +26,13 @@ body {
 }
 
 a {
-  color: #87b9e7;
+  color: #4C6E91;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #364e6b;
+  color: #9BA5AD;
   text-decoration: none;
   outline: none;
 }
@@ -43,7 +43,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: sansationregular, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -88,16 +87,16 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #87b9e7 !important;
+    color: #4C6E91 !important;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5);
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #87b9e7 !important;
+    color: #87b9e7;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -118,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: sansationregular, Arial, sans-serif;
   color: #364e6b;
   position: relative;
 }
@@ -134,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #87b9e7;
+  background-color: #fff;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -148,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #87b9e7;
+  color: #fff;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -161,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #87b9e7;
+  color: #fff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -190,19 +188,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #87b9e7;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: #364e6b;
+  color: #4C6E91;
   background: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #87b9e7;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #87b9e7;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -250,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h2 {
   font-size: 50px;
   font-weight: 300;
-  color: #19323C;
+  color: #4C6E91;
   text-transform: uppercase;
   position: relative;
   display: block;
@@ -263,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #506067;
+  background: transparent;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -316,13 +314,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimonials {
-  background: #364e6b;
+  background: #4C6E91;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
 }
 #fh5co-testimonials .section-heading h2:after {
-  background: rgba(255, 255, 255, 0.2);
+  background: transparent;
 }
 #fh5co-testimonials .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.5);
@@ -766,9 +764,19 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
+.grid{
+  text-align: center;
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 26px;
+}
+
 #footer {
   padding: 50px 0;
-  color: #7f7f7f;
+  background-color:#252526;
+  color:#fff !important;
 }
 #footer .copyright {
   margin-bottom: 0px;
@@ -843,14 +851,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 .social li a:hover {
-  background: #F58287 !important;
+  background: #9BA5AD !important;
 }
 .social.social-box a {
   background: #D97600;
   color: #fff;
 }
 .social.social-circle a {
-  background: #F2545B;
+  background: #4C6E91;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

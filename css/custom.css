@@ -261,7 +261,7 @@ button.formbox-button-831840 {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: Oswald, Tahoma, Arial, sans-serif;
 }
 .popup .close {
   position: absolute;
@@ -334,11 +334,6 @@ button.formbox-button-831840 {
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #364e6b;
-}
-
-#footer{
-  background-color:#19323C !important;
-  color:#fff !important;
 }
 
 .social-own-icon{
