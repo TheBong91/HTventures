@@ -129,12 +129,14 @@
                 scrlTop = $(this).scrollTop();
 
             if (scrlTop > 500 && scrlTop <= 2000) {
-                header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+                header.removeClass('notshown');
+                header.addClass('navbar-fixed-top fh5co-animated slideInDown shown');
             } else if (scrlTop <= 500) {
                 if (header.hasClass('navbar-fixed-top')) {
                     header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
                     setTimeout(function() {
-                        header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+                        header.addClass('notshown');
+                        header.removeClass('navbar-fixed-top fh5co-animated slideInDown shown slideOutUp');
                     }, 100);
                 }
             }

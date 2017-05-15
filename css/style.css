@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+.mainlogo{
+  height:160px;
+  margin-bottom:30px;
+}
+
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -71,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
+  .mainlogo{
+    height:90px;
+  }
   #fh5co-header {
     margin-top: 0;
     background: #19323C;
@@ -170,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
-  background: #19323C;
+  background: #252526;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -775,19 +783,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #F2545B;
+  background: #4C6E91;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #F58287;
+  background: #093869;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #F58287 !important;
+  background: #093869 !important;
   color: #fff !important;
-  border: 2px solid #F58287 !important;
+  border: 2px solid #093869 !important;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
